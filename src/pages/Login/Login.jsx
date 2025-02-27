@@ -50,8 +50,10 @@ const Login = () => {
           <p>New to Netflix? <span onClick={()=>{setSignState("Sign Up")}}>Sign Up Now</span></p>
           :<p>Already have account? <span onClick={()=>{setSignState("Sign In")}}>Sign In Now</span></p>
         }
-
-          
+        </div>
+        <div className='id-pass'>
+          <h5>Email: <span>admin@gmail.com</span></h5>
+          <h5>Password: <span>admin1234</span></h5>
         </div>
       </div>
     </div>
