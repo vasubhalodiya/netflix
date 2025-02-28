@@ -36,7 +36,7 @@ const Player = (props) => {
 
   return (
     <div className='player'>
-      <img src={back_arrow_icon} alt="" onClick={()=>{navigate(-2)}}/>
+      <img src={back_arrow_icon} alt="" onClick={()=>{navigate(-1)}}/>
       <iframe src={`https://www.youtube.com/embed/${apiData.key}`}
       title='trailer' frameBorder='0' allowFullScreen></iframe>
       <div className="player-info">
